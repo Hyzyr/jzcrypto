@@ -52,15 +52,15 @@ const SideBar = () => {
         title={"Who to follow"}
         data={[
           {
-            name: "CryptoFactory",
+            name: "CryptoFactory 1",
             username: "@CFactory",
           },
           {
-            name: "CryptoFactory",
+            name: "CryptoFactory 2",
             username: "@CFactory",
           },
           {
-            name: "CryptoFactory",
+            name: "CryptoFactory 3",
             username: "@CFactory",
           },
         ]}
@@ -108,10 +108,10 @@ const UsersList = ({ title, data }) => {
         {title}
       </Heading>
       {data.map((item, index) => (
-        <HStack spacing={2} pb={6}>
+        <HStack spacing={2} pb={6} key={index}>
           <UserInfo
-            name="Sam Smith asda sd sad xzc as"
-            username="@sams"
+            name={item.name}
+            username={item.username}
             wrapperProps={{
               maxW: "calc(100% - 55px)",
               flexGrow: 1,
@@ -126,7 +126,7 @@ const UsersList = ({ title, data }) => {
             borderRadius={0}
             bg="black"
             _hover={{
-              bg: useColorModeValue("gray.700", "gray.900"),
+              bg: "gray.700",
             }}
           />
         </HStack>

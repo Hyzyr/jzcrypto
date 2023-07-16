@@ -80,7 +80,7 @@ const BlogContent = () => {
           The Rise of Bitcoin <br />
           Bitcoin, created in 2009, is the first and most well-known
           cryptocurrency. It gained significant attention for its potential to
-          disrupt traditional financial systems. Bitcoin's limited supply and
+          disrupt traditional financial systems. Bitcoin&apos;s limited supply and
           decentralized nature sparked a wave of innovation, leading to the
           development of numerous other cryptocurrencies known as altcoins.
         </Text>
@@ -101,7 +101,7 @@ const BlogContent = () => {
           The Rise of Bitcoin <br />
           Bitcoin, created in 2009, is the first and most well-known
           cryptocurrency. It gained significant attention for its potential to
-          disrupt traditional financial systems. Bitcoin's limited supply and
+          disrupt traditional financial systems. Bitcoin&apos;s limited supply and
           decentralized nature sparked a wave of innovation, leading to the
           development of numerous other cryptocurrencies known as altcoins.
         </Text>
