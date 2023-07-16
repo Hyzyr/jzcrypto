@@ -80,8 +80,8 @@ const BlogContent = () => {
           The Rise of Bitcoin <br />
           Bitcoin, created in 2009, is the first and most well-known
           cryptocurrency. It gained significant attention for its potential to
-          disrupt traditional financial systems. Bitcoin&apos;s limited supply and
-          decentralized nature sparked a wave of innovation, leading to the
+          disrupt traditional financial systems. Bitcoin&apos;s limited supply
+          and decentralized nature sparked a wave of innovation, leading to the
           development of numerous other cryptocurrencies known as altcoins.
         </Text>
 
@@ -101,20 +101,20 @@ const BlogContent = () => {
           The Rise of Bitcoin <br />
           Bitcoin, created in 2009, is the first and most well-known
           cryptocurrency. It gained significant attention for its potential to
-          disrupt traditional financial systems. Bitcoin&apos;s limited supply and
-          decentralized nature sparked a wave of innovation, leading to the
+          disrupt traditional financial systems. Bitcoin&apos;s limited supply
+          and decentralized nature sparked a wave of innovation, leading to the
           development of numerous other cryptocurrencies known as altcoins.
         </Text>
       </BlogPost>
     </>
   );
 };
-const CustomTab = (props) => {
+const CustomTab = ({ isSelected, ...props }) => {
   return (
     <Tab
       textTransform={"capitalize"}
       fontWeight={"bold"}
-      color={props.isSelected ? "red.600" : "gray.500"}
+      color={isSelected ? "red.600" : "gray.500"}
       {...props}
     />
   );

@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 const NavItem = ({ icon, children, link, ...rest }) => {
   const pathname = usePathname();
   const isActive = pathname === link;
-  console.log("router", link, pathname, isActive);
 
   return (
     <Link
